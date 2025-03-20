@@ -48,7 +48,7 @@ cd neuroInspiredRSSI
 ```bash
 cd AI Engine
 pip install -r requirements.txt
-jupyter notebook  # Run training notebooks
+jupyter <notebook>  # Run training notebooks
 ```
 
 ### **3️⃣ Run the Flask Inference Server**
@@ -74,10 +74,11 @@ npm run dev
 ---
 
 ## 📡 Data Sources
-NeuroInspiredRSSI utilizes real-time data from **NASA & NOAA**:
-- **DSCOVR Satellite** (Deep Space Climate Observatory) – Monitors solar wind & geomagnetic disturbances at **Lagrange Point 1 (L1)**.
+- **L2 Space Observations** – Data from saatellites at Lagrange Point 2 is integrated for space weather tracking.
+Utilizes real-time data from **NASA & NOAA**:
+- **DSCOVR Satellite** (Deep Space Climate Observatory) – Monitors solar wind & geomagnetic disturbances at **Lagrange Point 2 (L2)**.
 - **ACE Satellite** (Advanced Composition Explorer) – Captures high-energy particles & solar wind conditions.
-- **L2 Space Observations** – Data from Lagrange Point 2 may be integrated for extended space weather tracking.
+
 
 ---
 
