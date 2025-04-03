@@ -38,33 +38,36 @@ This project explores **Intel's LAVA SDK** to optimize predictions using neuromo
 ---
 
 ## 🚀 How to Run
-### **1️⃣ Clone the Repository**
+
+### **1️⃣ Fork the Repository** 
+
+### **2️⃣ Clone the Repository Forked**
 ```bash
 git clone https://github.com/yourusername/neuroInspiredRSSI.git
 cd neuroInspiredRSSI
 ```
 
-### **2️⃣ Setup AI Engine (Model Training & Inference)**
+### **3️⃣ Setup AI Engine (Model Training & Inference)**
 ```bash
-cd AI Engine
+cd "AI Engine"
 pip install -r requirements.txt
 jupyter <notebook>  # Run training notebooks
 ```
 
-### **3️⃣ Run the Flask Inference Server**
+### **4️⃣ Run the Flask Inference Server**
 ```bash
-cd AI Engine/Inference
+cd "AI Engine/Inference"
 python app.py
 ```
 
-### **4️⃣ Setup and Run the API**
+### **5️⃣ Setup and Run the API**
 ```bash
 cd API
 dotnet restore
 dotnet run
 ```
 
-### **5️⃣ Run the Frontend**
+### **6️⃣ Run the Frontend**
 ```bash
 cd Frontend
 npm install
